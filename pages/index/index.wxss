@@ -1,0 +1,94 @@
+.navbg{
+  background-color: #F6F5F3;
+  height: 36px;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav{
+  width: 85%;
+  height: 36px;
+}
+.scroll-view_H{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+}
+.normal {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+}
+.select {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
+  background-color: #D53C3E;
+  color: #ffffff;
+}
+.item {
+  margin: 10px;
+}
+.title {
+  color: #444444;
+  font-weight: bold;
+  font-size: 25px;
+}
+.title:hover {
+  text-decoration: underline;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #999999;
+}
+.tb {
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+.squa_blue {
+  padding: 1px 2px;
+  border: 1px solid #87a5b5;
+  width: 26px;
+}
+.squa_red {
+  padding: 1px 2px;
+  border: 1px solid #ff7020;
+  width: 26px;
+}
+.info_img {
+  display: flex;
+  flex-direction: column;
+}
+.big_img {
+  color: #fff;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 380px;
+  height: 300px;
+  line-height: 18px;
+  text-align: center;
+}
+.hr {
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+  margin-top: 10px;
+}
+.vid {
+  width: 370px;
+  height: 200px;
+}

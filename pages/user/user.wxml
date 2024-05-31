@@ -1,0 +1,62 @@
+<!--pages/setting/setting.wxml-->
+<view>
+	<view class="user">
+		<image src="./image/用户头像.png" mode=""/>
+		<view class="name">huangyu</view>
+	</view>
+</view>
+<view class="hr"></view>
+<view class="item">
+	<view class="order">个人信息</view>
+	<view class="detail">
+			<text>></text>
+	</view>
+</view>
+
+<view class="hr"></view>
+<view class="item">
+	<view class="order">我的文章</view>
+	<view class="detail">
+		<text>去发布文章</text>
+	</view>
+</view>
+
+<view class="hr"></view>
+<view class="item">
+	<view class="order">收到的评论/回复</view>
+	<view class="detail">
+		<text></text>
+	</view>
+</view>
+
+<view class="xian"></view>
+<view class="item">
+	<view class="order">收到的点赞</view>
+	<view class="detail">
+		<text></text>
+	</view>
+</view>
+
+<view class="xian"></view>
+<view class="item">
+	<view class="order">服务区域</view>
+	<view class="detail">
+	<text>></text>
+	</view>
+</view>
+
+<view class="xian"></view>
+<view class="item">
+	<view class="order">安全中心</view>
+	<view class="detail">
+	<text>></text>
+	</view>
+</view>
+
+<view class="xian"></view>
+<view class="item">
+	<view class="order" bindtap="set">设置</view>
+	<view class="detail">
+	</view>
+</view>
+<view class="hr"></view>

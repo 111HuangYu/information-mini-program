@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="navbg">
+        <view class="nav">
+            <scroll-view class="scroll-view_H" scroll-x="true">
+                <view class="scroll-view_H">
+                    <view><view class="{{flag==0?'select':'normal'}}" id="0" bindtap="switchNav">推荐</view></view>
+                    <view><view class="{{flag==1?'select':'normal'}}" id="1" bindtap="switchNav">热点</view></view>
+                    <view><view class="{{flag==2?'select':'normal'}}" id="2" bindtap="switchNav">美食</view></view>
+                    <view><view class="{{flag==3?'select':'normal'}}" id="3" bindtap="switchNav">娱乐</view></view>
+                    <view><view class="{{flag==4?'select':'normal'}}" id="4" bindtap="switchNav">科技</view></view>
+                    <view><view class="{{flag==5?'select':'normal'}}" id="5" bindtap="switchNav">母婴</view></view>
+                    <view><view class="{{flag==6?'select':'normal'}}" id="6" bindtap="switchNav">体育</view></view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+    <swiper current="{{currentTab}}" style="height: 800px">
+        <swiper-item><include src="rec.wxml"></include></swiper-item>
+        <swiper-item><include src="rec.wxml"/></swiper-item>
+        <swiper-item><include src="food.wxml"/></swiper-item>
+        <swiper-item><include src="entertainment.wxml"/></swiper-item>
+        <swiper-item><include src="sciencee.wxml"/></swiper-item>
+        <swiper-item><include src="sciencee.wxml"/></swiper-item>
+        <swiper-item><include src="PE.wxml"></include></swiper-item>
+    </swiper>
+</view>

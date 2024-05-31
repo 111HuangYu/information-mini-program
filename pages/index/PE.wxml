@@ -1,0 +1,35 @@
+<scroll-view style="height: 100%;" scroll-y="true">
+  <view class="item">
+    <a href="" class="title">你后悔练体育吗？</a>
+    <view class="info">
+      <text class="squa_blue">体育</text>
+      <image class="tb" src="../../images/PE/1.jpeg"></image>
+      <text> 潮牌体育  .   12评论    .    3分钟前</text>
+    </view>
+    <view class="hr"></view>
+  </view>
+
+  <view class="info_image">
+    <image class="big_img" src="../../images/PE/1.jpeg"></image>
+    <view class="item">
+      <a href="" class="title">体育生的快乐 | 运动或许枯燥，但是两个人一起动力无限</a>
+      <view class="info">
+        <text class="squa_blue">体育</text>
+        <image class="tb" src="../../images/PE/2.jpeg" ></image>
+        <text>黑皮体育生  .   27评论    .    14分钟前</text>
+      </view>
+      <view class="hr"></view>
+    </view>
+  </view>
+  <image class="big_img" src="../../images/PE/2.jpeg"></image>
+  <view class="item">
+    <a href="" class="title">大学生田径锦标赛 | 沉淀</a>
+    <view class="info">
+      <text class="squa_red">体育</text>
+      <image class="tb" src="../../images/PE/2.jpeg"></image>
+      <text>毛毛老师  .   30评论    .    40分钟前</text>
+    </view>
+    <image class="big_img" src="../../images/PE/2.jpeg"></image>
+    <view class="hr"></view>
+  </view>
+</scroll-view>

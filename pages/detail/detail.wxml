@@ -1,0 +1,24 @@
+<view class="page">
+  <scroll-view  class="content" scroll-y="true">
+    <view class="title">商务部：中美双方经贸团队牵头人将于本周五再次通话</view>
+    <view class="info">北京日报客户端 2019-10-31 12:29:27</view>
+    <view>
+      <image src="../../images/img/f9290ca8436484d392f6bf962e10c505.jpeg" style="width: 360px; height: 240px;"></image>
+    </view>
+    <text>商务部新闻发言人声明：中美双方经贸团队一直保持密切沟通，目前磋商工作进展顺利。双方将按原计划继续推进磋商等各项工作。双方牵头人将于本周五再次通话。</text>
+    
+    <view class="comli">
+      <view class="com">评论列表</view>
+      <block wx:for="{{comments}}" wx:key="index" wx:for-index="index">
+        <view class="comment-item">
+          <text class="comment-index">用户{{index + 1}}：</text>
+          <text class="comment-content">{{item}}</text>
+        </view>
+      </block>
+    </view>
+  </scroll-view>
+  <view class="comment-box">
+    <input type="text" placeholder="发表评论..." class="comment-input" bindinput="bindCommentInput" value="{{comment}}"/>
+    <button class="comment-button" bindtap="submitComment">发送</button>
+  </view>
+</view>

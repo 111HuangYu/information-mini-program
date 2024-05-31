@@ -1,0 +1,53 @@
+<!--pages/setting/setting.wxml-->
+<view class="hr"></view>
+<view class="item">
+	<view class="order">消息通知</view>
+	<view class="detail">
+			<text></text>
+	</view>
+</view>
+
+<view class="hr"></view>
+<view class="item">
+	<view class="order">咨询商城</view>
+	<view class="detail">
+		<text>点击加入天猫商城6.18</text>
+	</view>
+</view>
+
+<view class="hr"></view>
+<view class="item">
+	<view class="order">我要爆料</view>
+	<view class="detail">
+		<text></text>
+	</view>
+</view>
+
+<view class="xian"></view>
+<view class="item">
+	<view class="order">用户反馈</view>
+	<view class="detail">
+		<text></text>
+	</view>
+</view>
+
+<view class="xian"></view>
+<view class="item">
+	<view class="order">自动清除缓存</view>
+	<switch class="detail"></switch>
+</view>
+
+<view class="xian"></view>
+<view class="item">
+	<view class="order">显示摘要</view>
+	<switch class="detail"></switch>
+</view>
+
+<view class="xian"></view>
+<view class="item">
+	<view class="order">字体大小</view>
+	<view class="detail">
+		<text>小</text>
+	</view>
+</view>
+<view class="hr"></view>

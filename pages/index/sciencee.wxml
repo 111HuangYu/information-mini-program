@@ -1,0 +1,35 @@
+<scroll-view style="height: 100%;" scroll-y="true">
+  <view class="item">
+    <a href="" class="title">能玩一整天的轰趴馆|周末就去这里玩</a>
+    <view class="info">
+      <text class="squa_blue">娱乐</text>
+      <image class="tb" src="../../images/entertainment/hongpa.jpg"></image>
+      <text> 猎鹰轰趴馆  .   102评论    .    3分钟前</text>
+    </view>
+    <view class="hr"></view>
+  </view>
+
+  <view class="info_image">
+    <image class="big_img" src="../../images/entertainment/hongpa.jpg"></image>
+    <view class="item">
+      <a href="" class="title">假期可以做的N件事 | 无聊指南| 不要太快乐啦</a>
+      <view class="info">
+        <text class="squa_blue">娱乐</text>
+        <image class="tb" src="../../images/entertainment/holiday.jpeg" ></image>
+        <text>知了阅读  .   202评论    .    11分钟前</text>
+      </view>
+      <view class="hr"></view>
+    </view>
+  </view>
+  <image class="big_img" src="../../images/entertainment/holiday.jpeg"></image>
+  <view class="item">
+    <a href="" class="title">你身边有没有这样的朋友...</a>
+    <view class="info">
+      <text class="squa_red">交友</text>
+      <image class="tb" src="../../images/entertainment/friend.jpeg"></image>
+      <text>娱可可  .   3190评论    .    15分钟前</text>
+    </view>
+    <image class="big_img" src="../../images/entertainment/friend.jpeg"></image>
+    <view class="hr"></view>
+  </view>
+</scroll-view>

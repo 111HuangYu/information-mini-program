@@ -1,0 +1,35 @@
+<scroll-view style="height: 100%;" scroll-y="true">
+  <view class="item">
+    <a href="" class="title">中国共产党第十九届中央委员会第四次全日会议公报</a>
+    <view class="info">
+      <text class="squa_blue">时政</text>
+      <image class="tb" src="../../images/img/d1f9a7df5a94dcc270ebdd0e6aa6267a.jpeg"></image>
+      <text> 新华客户端  .   39评论    .    1分钟前</text>
+    </view>
+    <view class="hr"></view>
+  </view>
+
+  <view class="info_image" bind:tap="recDetail">
+    <image class="big_img" src="../../images/img/e1970c04b61a2d077feb912632cb63ee.jpg"></image>
+    <view class="item">
+      <a href="" class="title">商务部：中美双方经贸团队牵头人将于本周五再次通话</a>
+      <view class="info">
+        <text class="squa_blue">时政</text>
+        <image class="tb" src="../../images/img/d1f9a7df5a94dcc270ebdd0e6aa6267a.jpeg" bind:tap="recDetail"></image>
+        <text>北京日报客户端  .   22评论    .    20分钟前</text>
+      </view>
+      <view class="hr"></view>
+    </view>
+  </view>
+  <image class="big_img" src="../../images/img/f9290ca8436484d392f6bf962e10c505.jpeg"></image>
+  <view class="item">
+    <a href="" class="title">这个经验，历久弥新</a>
+    <view class="info">
+      <text class="squa_red">视频</text>
+      <image class="tb" src="../../images/img/0bd1fa81cd406c29f3e8782685d89c9e.jpg"></image>
+      <text>新华社  .   319评论    .    11分钟前</text>
+    </view>
+    <image class="vid" src="../../images/img/LE{I32)RDDI~D4`IUH75IND.png" controls></image>
+    <view class="hr"></view>
+  </view>
+</scroll-view>

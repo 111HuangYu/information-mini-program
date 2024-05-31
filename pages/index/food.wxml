@@ -1,0 +1,35 @@
+<scroll-view style="height: 100%;" scroll-y="true">
+  <view class="item">
+    <a href="" class="title">宫保鸡丁怎么做才好吃？</a>
+    <view class="info">
+      <text class="squa_blue">美食</text>
+      <image class="tb" src="../../images/food/KungPaoChicken.jpeg"></image>
+      <text> 噗噗叽  .   339评论    .    1分钟前</text>
+    </view>
+    <view class="hr"></view>
+  </view>
+
+  <view class="info_image">
+    <image class="big_img" src="../../images/food/KungPaoChicken.jpeg"></image>
+    <view class="item">
+      <a href="" class="title">裂开的榴莲到底能不能买啊？</a>
+      <view class="info">
+        <text class="squa_blue">美食</text>
+        <image class="tb" src="../../images/food/durain.jpeg" ></image>
+        <text>嘟嘟  .   202评论    .    21分钟前</text>
+      </view>
+      <view class="hr"></view>
+    </view>
+  </view>
+  <image class="big_img" src="../../images/food/durain.jpeg"></image>
+  <view class="item">
+    <a href="" class="title">无油捞汁小海鲜-夏天的快乐！！冰爽酸辣</a>
+    <view class="info">
+      <text class="squa_red">美食</text>
+      <image class="tb" src="../../images/food/Seafood .jpeg"></image>
+      <text>新华社  .   319评论    .    13分钟前</text>
+    </view>
+    <image class="big_img" src="../../images/food/Seafood .jpeg"></image>
+    <view class="hr"></view>
+  </view>
+</scroll-view>
